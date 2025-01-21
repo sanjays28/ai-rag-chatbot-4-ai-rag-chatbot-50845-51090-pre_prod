@@ -1,0 +1,33 @@
+.message-input-container {
+  position: relative;
+  padding: 16px;
+  border-top: 1px solid #dee2e6;
+}
+
+.message-input {
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.message-input:focus {
+  border-color: #007bff;
+}
+
+.message-input:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.loading-indicator {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+  font-size: 0.875rem;
+}

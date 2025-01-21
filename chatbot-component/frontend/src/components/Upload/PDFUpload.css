@@ -1,0 +1,69 @@
+.pdf-upload-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+  margin-bottom: 15px;
+}
+
+.dropzone.active {
+  border-color: #4a90e2;
+  background-color: #f0f7ff;
+}
+
+.dropzone.error {
+  border-color: #dc3545;
+  background-color: #fff5f5;
+}
+
+.dropzone p {
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+}
+
+.progress-container {
+  margin-top: 15px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4a90e2;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff5f5;
+  border: 1px solid #dc3545;
+  font-size: 14px;
+}

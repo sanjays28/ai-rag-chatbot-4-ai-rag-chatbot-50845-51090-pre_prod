@@ -1,0 +1,40 @@
+.chat-message {
+  margin: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.user-message {
+  margin-left: auto;
+  background-color: #007bff;
+  color: white;
+}
+
+.bot-message {
+  margin-right: auto;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.error-message {
+  margin-right: auto;
+  background-color: #dc3545;
+  color: white;
+}
+
+.message-content {
+  position: relative;
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  bottom: -16px;
+  right: 0;
+}
+
+.bot-message .timestamp {
+  color: rgba(0, 0, 0, 0.5);
+}
